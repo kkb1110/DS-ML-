@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-.env1
+env1
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -143,6 +143,7 @@ celerybeat.pid
 .envrc
 .venv
 env/
+env1/
 venv/
 ENV/
 env.bak/
