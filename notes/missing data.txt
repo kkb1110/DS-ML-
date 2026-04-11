@@ -1,0 +1,14 @@
+Why is there missing data in the dataset?
+There are 3 main reasons for missing data in a dataset:
+    1. Missing completely at random (MCAR): The missing data is independent of both observed and unobserved data. For example, if a survey respondent accidentally skips a question, the missing data is considered MCAR.
+    The probability of missing data depends on neither the observed data nor the unobserved data.
+    e.g., in a survey, if people randomly skip a question about their income, then the missing data is considered MCAR.
+
+    2. Missing at random (MAR): The missing data is related to the observed data but not the unobserved data. For example, if a survey respondent is more likely to skip a question about income if they have a lower income, the missing data is considered MAR.
+    The probability of missing data depends on the observed data but not on the unobserved data.
+    e.g., in a survey, if people with higher income are more likely to skip the question about their income, then the missing data is considered MAR.
+
+    3. Missing not at random (MNAR): The missing data is related to the unobserved data. For example, if a survey respondent is more likely to skip a question about income if they have a higher income, the missing data is considered MNAR.
+    The probability of missing data depends on the unobserved data.
+    The missingness depends on the value of the variable that is missing. In this case, the missing data is not random and can lead to biased results if not handled properly.
+    e.g.,  in a survey, if people with higher income are more likely to skip the question about their income, then the missing data is considered MNAR. or if people with lower income are more likely to skip the question about their income, then the missing data is also considered MNAR.

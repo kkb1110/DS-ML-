@@ -1,0 +1,61 @@
+machine learning :
+    1. Unsupervised learning
+    2. Supervised learning
+    3. Reinforcement learning
+
+1. Unsupervised learning :
+    Here the model learns from the data without any labels. The goal is to find hidden patterns or intrinsic structures in the input data. 
+    In easy words, the model is trying to understand the data without any guidance. and we are trying to find which clusters of data points are similar to each other, or which features are most important for understanding the data.
+
+    Some common techniques include:  
+    - Clustering
+    - Dimensionality reduction
+    - Anomaly detection
+
+    #Example problem : Given a dataset of customer transactions, we want to identify groups of customers with similar purchasing behavior. We can use clustering techniques to group customers based on their transaction history, which can help us understand customer segments and target marketing efforts more effectively.
+    
+
+2. Supervised learning :
+    Here the model learns from labeled data. The goal is to make predictions based on the input data.
+    In easy words, the model is trying to learn a mapping from input data to output labels. We are trying to find a function that can take in new input data and predict the correct output label.
+
+    Some common techniques include:  
+    - Classification
+    - Regression
+
+    #Example problem : Given a dataset of email messages labeled as "spam" or "not spam," we want to build a model that can classify new email messages as either spam or not spam. We can use supervised learning techniques, such as logistic regression or support vector machines, to train a model on the labeled dataset and then use it to make predictions on new email messages.
+
+3. Reinforcement learning :
+    Here the model learns by interacting with an environment and receiving feedback in the form of rewards or penalties. The goal is to learn a policy that maximizes the cumulative reward over time.
+    In easy words, the model is trying to learn how to make decisions in an environment to achieve a certain goal. We are trying to find a strategy that can help the model make the best decisions based on the feedback it receives from the environment.
+
+    Some common techniques include:
+    - Policy gradient methods
+    - Q-learning
+
+    #Example problem : Consider a robot that is learning to navigate a maze. The robot receives a reward for reaching the goal and a penalty for colliding with walls. The robot can use reinforcement learning techniques, such as Q-learning, to learn a policy that helps it navigate the maze effectively and maximize its cumulative reward over time.
+
+Difference between supervised and unsupervised learning :
+    Supervised learning         !   Unsupervised learning
+    -------------------         !   -------------------
+    Labeled data                !  Unlabeled data
+    Predicts output labels      ! Finds hidden patterns
+    Requires a training phase   !   No training phase
+    Eg:classification,regression!Eg:clustering, dimensionality reduction
+
+
+
+Learning techniques :
+
+    Instance based learning : This technique stores the training data and makes predictions based on the similarity to the training data. It does not build an explicit model of the data. Instead, it relies on the idea that similar instances will have similar outputs.
+
+    Model based learning : This technique builds a model from the training data and makes predictions based on the model learned from the training data. It tries to find a function that can map input data to output labels, and it uses this function to make predictions on new data.
+    
+Instance based learning vs Model based learning :
+    Instance based learning      !   Model based learning
+    -------------------         !   -------------------
+   1. Stores training data         ! 1. Builds a model from training data
+   2. Makes predictions based on  ! 2.Makes predictions based on the model
+    similarity to training data  !  learned from training data
+    Eg: K-nearest neighbors      ! Eg: Linear regression, decision trees
+    instance based learning is more flexible and faster to train, but it can be slower to make predictions and may require more memory to store the training data. Model based learning can be more accurate and efficient for making predictions, but it may require more time and computational resources to train the model.

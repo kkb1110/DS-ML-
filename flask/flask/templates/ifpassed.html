@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>Your marks: {{ marks }}</p>
+    {% if marks >= 40 %}
+        <p>Congratulations! You have passed the exam with marks {{ marks }}.</p>
+    {% else %}
+        <p>Unfortunately, you have failed with marks {{ marks }} which is &lt; 40.<br> Better luck next time!</p>
+    {% endif %}
+</body>
+</html>

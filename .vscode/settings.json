@@ -1,0 +1,7 @@
+{
+    "tabnine.codeLensEnabled": false,
+    "tabnine.completionsLoadingIndicatorEnabled": false,
+    "tabnine.disableFileRegex": [
+        
+    ]
+}

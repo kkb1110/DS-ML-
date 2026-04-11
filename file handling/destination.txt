@@ -1,0 +1,5 @@
+Hello ,this is an example file
+to practice with file operations in python.
+
+This is Krishna Kanta Bera
+is is krishna 

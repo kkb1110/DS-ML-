@@ -1,0 +1,10 @@
+ipykernel
+numpy
+pandas
+openpyxl
+lxml
+matplotlib
+flask
+streamlit
+scikit-learn
+seaborn
