@@ -3,5 +3,6 @@
     "tabnine.completionsLoadingIndicatorEnabled": false,
     "tabnine.disableFileRegex": [
         
-    ]
+    ],
+    "explorer.compactFolders": false
 }
